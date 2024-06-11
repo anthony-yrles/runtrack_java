@@ -21,5 +21,7 @@ public class job13 {
         }
 
         System.out.println(chaine);
+
+        sc.close();
     }
 }
