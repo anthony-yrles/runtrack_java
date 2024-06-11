@@ -23,5 +23,7 @@ public class job11 {
 
         System.out.println(hoursString + ":" + minutesString); // Output the result
 
+        sc.close();
+
     }    
 }

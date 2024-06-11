@@ -20,5 +20,7 @@ public class job10 {
         String surname = sc.nextLine();// Read user input
 
         System.out.println("Bonjour " + name + " " + surname); // Output the result
+
+        sc.close();
     }
 }
