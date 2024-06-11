@@ -2,7 +2,6 @@ package jour02;
 
 /*
  * Write a program that displays the numbers from 1 to 100 on the screen.
-
  */
 
 public class job01 {
