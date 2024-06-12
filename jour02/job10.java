@@ -1,5 +1,9 @@
 package jour02;
 
+/*
+ * Write a program that reads an integer and prints the sum of its digits.
+ */
+
 
 public class job10 {
     public static void main(String[] args) {
