@@ -21,8 +21,8 @@ public class job03 {
         String firstHalf = randomString.substring(0, length / 2);
         String secondHalf = randomString.substring(length / 2);
 
-        Thread writeFirstHalfThread = new Thread(() -> writeToFile("output.txt", firstHalf, false));
-        Thread writeSecondHalfThread = new Thread(() -> writeToFile("output.txt", secondHalf, true));
+        Thread writeFirstHalfThread = new Thread(() -> writeToFile("./jour04/output.txt", firstHalf, false));
+        Thread writeSecondHalfThread = new Thread(() -> writeToFile("./jour04/output.txt", secondHalf, true));
 
         writeFirstHalfThread.start();
         writeSecondHalfThread.start();
